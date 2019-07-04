@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     // MARK: Properties.
     var score = 0
     var totalRounds = 6
-    var timerCount = 15
+    var timerCount = 60
     
     var displayEvent = DisplayEvents()
     var time = Timer()
@@ -117,6 +117,7 @@ class ViewController: UIViewController {
         time.invalidate()
         
         //Check for ascending order and start next round.
+        //Oldest in the top.
         if checkForAscendingOrder() {
             score += 1
             ShakeInformation.text = "Your Score: \(String(score))"

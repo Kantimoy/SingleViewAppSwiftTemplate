@@ -11,6 +11,8 @@ import Foundation
 class DisplayEvents {
     
     var differentEvents: [Events] = [firstEvent,secondEvent,thirdEvent,fourthEvent,fifthEvent,sixthEvent,seventhEvent,eighthEvent,ninthEvent,tenthEvent,eleventhEvent,twelvethEvent,thriteenthEvent,fourteenthEvent,fifteenthEvent,sixteenthEvent,seventeenthEvent,eigthteenthEvent,ninteenthEvent,twenthEvent,twentyfirstEvent,twentysecondEvent,twentythirdEvent,twentyfourthEvent,twentyfifthEvent]
+    
+    
     var eventsToDisplay = [String]()
     var eventsInAscendingOrder = [String]()
     
