@@ -162,7 +162,7 @@
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <action selector="GoToNextRound" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQY-VN-9SP"/>
+                                            <action selector="goToNextRound" destination="BYZ-38-t0r" eventType="touchUpInside" id="cQY-VN-9SP"/>
                                             <segue destination="SLR-OW-oni" kind="presentation" identifier="finalScore" id="8UY-Cc-dVt"/>
                                         </connections>
                                     </button>
@@ -187,18 +187,18 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="FirstLabelButton" destination="FKs-s9-UIO" id="nUz-qt-eOw"/>
-                        <outlet property="GoNextRound" destination="TFl-ha-Fzd" id="7GN-VU-KEH"/>
-                        <outlet property="ShakeInformation" destination="QDu-vl-FKT" id="XJP-NL-gzA"/>
-                        <outlet property="ViewFirstOption" destination="uYe-is-gzj" id="GCe-oV-Zhu"/>
-                        <outlet property="ViewFourthOption" destination="x9l-L5-aPa" id="HSt-KA-Uo4"/>
-                        <outlet property="ViewSecondOption" destination="41R-SB-OOO" id="A7I-kQ-hZk"/>
-                        <outlet property="ViewThirdOption" destination="jAJ-S6-OXt" id="67s-NX-TLM"/>
+                        <outlet property="firstLabelButton" destination="FKs-s9-UIO" id="nUz-qt-eOw"/>
+                        <outlet property="firstLabelView" destination="uYe-is-gzj" id="GCe-oV-Zhu"/>
                         <outlet property="fourthLabelButton" destination="weB-8h-r8j" id="r0H-AN-E1c"/>
+                        <outlet property="fourthLabelView" destination="x9l-L5-aPa" id="HSt-KA-Uo4"/>
+                        <outlet property="nextRoundButton" destination="TFl-ha-Fzd" id="7GN-VU-KEH"/>
                         <outlet property="secondLabelDownButton" destination="Pap-S5-t1e" id="V7f-zR-vA6"/>
                         <outlet property="secondLabelUpButton" destination="ZJ8-fr-De1" id="McV-4z-m1k"/>
+                        <outlet property="secondLabelView" destination="41R-SB-OOO" id="A7I-kQ-hZk"/>
+                        <outlet property="shakeInformation" destination="QDu-vl-FKT" id="XJP-NL-gzA"/>
                         <outlet property="thirdLabelDownButton" destination="sN6-5Y-LIE" id="bgs-aF-4hT"/>
                         <outlet property="thirdLabelUpButton" destination="Reg-MV-m36" id="2jT-yF-rXD"/>
+                        <outlet property="thirdLabelView" destination="jAJ-S6-OXt" id="67s-NX-TLM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

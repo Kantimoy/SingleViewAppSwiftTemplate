@@ -8,7 +8,7 @@
 
 import Foundation
 
-class DisplayEvents {
+class EventManager {
     
     var differentEvents: [Events] = [firstEvent,secondEvent,thirdEvent,fourthEvent,fifthEvent,sixthEvent,seventhEvent,eighthEvent,ninthEvent,tenthEvent,eleventhEvent,twelvethEvent,thriteenthEvent,fourteenthEvent,fifteenthEvent,sixteenthEvent,seventeenthEvent,eigthteenthEvent,ninteenthEvent,twenthEvent,twentyfirstEvent,twentysecondEvent,twentythirdEvent,twentyfourthEvent,twentyfifthEvent]
     
